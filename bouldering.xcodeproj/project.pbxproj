@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B7D05F3223CB14B005ACFEA /* ChallengeCardTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D05F2223CB14B005ACFEA /* ChallengeCardTableViewCell.swift */; };
+		8B7D05F5223CBD71005ACFEA /* ChallengeCardTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D05F4223CBD71005ACFEA /* ChallengeCardTableViewController.swift */; };
+		8B7D05F7223CC36A005ACFEA /* ChallengeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B7D05F6223CC36A005ACFEA /* ChallengeCard.swift */; };
 		8BFD60EE223BE15400F29BCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD60ED223BE15400F29BCA /* AppDelegate.swift */; };
 		8BFD60F0223BE15400F29BCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BFD60EF223BE15400F29BCA /* ViewController.swift */; };
 		8BFD60F3223BE15400F29BCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BFD60F1223BE15400F29BCA /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B7D05F2223CB14B005ACFEA /* ChallengeCardTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardTableViewCell.swift; sourceTree = "<group>"; };
+		8B7D05F4223CBD71005ACFEA /* ChallengeCardTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCardTableViewController.swift; sourceTree = "<group>"; };
+		8B7D05F6223CC36A005ACFEA /* ChallengeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCard.swift; sourceTree = "<group>"; };
 		8BFD60EA223BE15400F29BCA /* bouldering.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bouldering.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BFD60ED223BE15400F29BCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8BFD60EF223BE15400F29BCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,8 +84,11 @@
 			isa = PBXGroup;
 			children = (
 				8BFD60ED223BE15400F29BCA /* AppDelegate.swift */,
+				8B7D05F2223CB14B005ACFEA /* ChallengeCardTableViewCell.swift */,
 				8BFD60EF223BE15400F29BCA /* ViewController.swift */,
 				8BFD60F1223BE15400F29BCA /* Main.storyboard */,
+				8B7D05F4223CBD71005ACFEA /* ChallengeCardTableViewController.swift */,
+				8B7D05F6223CC36A005ACFEA /* ChallengeCard.swift */,
 				8BFD60F4223BE15500F29BCA /* Assets.xcassets */,
 				8BFD60F6223BE15500F29BCA /* LaunchScreen.storyboard */,
 				8BFD60F9223BE15500F29BCA /* Info.plist */,
@@ -198,6 +207,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BFD60F0223BE15400F29BCA /* ViewController.swift in Sources */,
+				8B7D05F7223CC36A005ACFEA /* ChallengeCard.swift in Sources */,
+				8B7D05F5223CBD71005ACFEA /* ChallengeCardTableViewController.swift in Sources */,
+				8B7D05F3223CB14B005ACFEA /* ChallengeCardTableViewCell.swift in Sources */,
 				8BFD60EE223BE15400F29BCA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
